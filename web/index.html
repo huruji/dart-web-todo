@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>web_test</title>
+    <link rel="stylesheet" href="http://todomvc.com/examples/react/node_modules/todomvc-app-css/index.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+  <section class="todoapp">
+      <header class="header">
+        <h1>todos</h1>
+        <input class="new-todo" placeholder="What needs to be done?" />
+      </header>
+      <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox"/>
+        <label for="toggle-all"></label>
+        <ul class="todo-list">
+        </ul>
+      </section>
+      <footer class="footer">
+        <span class="todo-count">
+          <strong >0</strong>
+          <span > </span>
+          <span >items</span>
+          <span > left</span>
+        </span>
+        <ul class="filters" >
+          <li todo-type="all">
+            <a href="#/" class="selected">All</a>
+          </li>
+          <span> </span>
+          <li todo-type="active">
+            <a href="#/active">Active</a>
+          </li>
+          <span> </span>
+          <li todo-type="completed">
+            <a href="#/completed">Completed</a>
+          </li>
+        </ul>
+        <button class="clear-completed" >Clear completed</button>
+      </footer>
+</section>
+</body>
+</html>
